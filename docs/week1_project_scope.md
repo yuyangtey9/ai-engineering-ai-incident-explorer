@@ -40,11 +40,14 @@ The MIT AI Risk Repository authors state that a lack of shared understanding of 
 - Source / citation: Slattery et al. (2024), arXiv:2408.12622. https://airisk.mit.edu
 - Key limitation: It catalogues *risks* extracted from frameworks, not *real incidents*, and it does not assess likelihood or severity. Its website search matches exact text in the description field only, so differently worded descriptions of the same risk are missed. It is not linked to real incident records.
 
+**Study / solution 4: MIT AI Incident Tracker**
+- Source / citation: MIT AI Risk Initiative. https://airisk.mit.edu
+- Key limitation: It classifies incidents from the AI Incident Database by risk, cause, harm and severity, but it is a classification and browsing resource, not a natural-language assistant that answers questions with cited records.
 ---
 
 ## Engineering Gap / Limitation
 
-**Gap / Limitation:** Existing resources are either incident catalogues (AIID, OECD AIM) or risk catalogues (MIT AI Risk Repository), and they are searched with keywords, fields, or exact text. No free tool links real incidents to a shared risk taxonomy and lets a user ask natural-language questions answered with citations to the specific incident or risk record. General-purpose chatbots can answer such questions fluently but may invent incidents, so their answers cannot be trusted without grounding and verification.
+**Gap / Limitation:** Existing resources are incident catalogues (AIID, OECD), a risk catalogue (MIT AI Risk Repository), or classified views of incidents (MIT AI Incident Tracker). They are browsed, filtered or searched by keyword rather than queried in natural language. No tool lets a user ask a question and receive an answer in which every claim cites a specific record, with a clear “not found” when the corpus has no support. General chatbots answer fluently but may fabricate incidents.
 
 ---
 
