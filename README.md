@@ -46,3 +46,4 @@ Students and early-career AI practitioners learning Responsible AI through real 
 | Week | Focus | Deliverable | Status |
 |------|-------|-------------|--------|
 | W1 | System map + project scope | README + docs | ✅ |
+| W2 | Requirements, evaluation criteria, V1 architecture | docs/week2_* | ✅ |
