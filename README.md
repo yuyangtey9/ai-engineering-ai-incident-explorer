@@ -13,9 +13,10 @@ People who want to learn from real-world AI failures must search several separat
 - **AI Incident Database (AIID)**: catalogue of real incidents. McGregor (2021), arXiv:2011.08512. https://incidentdatabase.ai. *Limitation:* keyword, table and taxonomy-filter navigation; reporting biases; no cited natural-language question answering.
 - **OECD AI Incidents and Hazards Monitor**: news-based incident monitor. https://oecd.ai/en/incidents-methodology. *Limitation:* machine-detected from news, third-party information not independently verified, search and filters only.
 - **MIT AI Risk Repository**: database and taxonomy of AI risks. Slattery et al. (2024). https://airisk.mit.edu. *Limitation:* catalogues risks rather than real incidents; website search matches exact text in the description field only.
+- **MIT AI Incident Tracker**: classifies AIID incidents by risk, cause, harm and severity. Limitation: classification and browsing only, with no cited natural-language question answering.
 
 ## Engineering Gap / Limitation
-Existing resources are either incident catalogues or risk catalogues searched by keyword, field or exact text. No free tool links real incidents to a shared risk taxonomy and answers natural-language questions with citations to specific records. General chatbots answer fluently but may fabricate incidents.
+Existing resources are incident catalogues (AIID, OECD), a risk catalogue (MIT AI Risk Repository), or classified views of incidents (MIT AI Incident Tracker). They are browsed, filtered or searched by keyword rather than queried in natural language. No tool lets a user ask a question and receive an answer in which every claim cites a specific record, with a clear “not found” when the corpus has no support. General chatbots answer fluently but may fabricate incidents.
 
 ## Project Objectives
 - O1: To design a document-grounded AI assistant that retrieves AI incidents and maps them to a shared risk taxonomy.
