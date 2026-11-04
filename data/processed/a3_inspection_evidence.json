@@ -1,0 +1,105 @@
+{
+  "S01": {
+    "rows": 1786,
+    "columns": [
+      "_id",
+      "incident_id",
+      "date",
+      "reports",
+      "Alleged deployer of AI system",
+      "Alleged developer of AI system",
+      "Alleged harmed or nearly harmed parties",
+      "description",
+      "title"
+    ],
+    "column_count": 9,
+    "mapped_columns": {
+      "record_id": "incident_id",
+      "title": "title",
+      "description": "description",
+      "date": "date"
+    },
+    "missing_mapped": {
+      "record_id": 0,
+      "title": 0,
+      "description": 0,
+      "date": 0
+    },
+    "exact_duplicate_rows": 0,
+    "duplicate_ids": 0,
+    "representative_records": [
+      {
+        "row_index": 0,
+        "record_id": "23",
+        "label": "Las Vegas Self-Driving Bus Involved in Accident"
+      },
+      {
+        "row_index": 1254,
+        "record_id": "1266",
+        "label": "Purportedly AI-Generated Sexual Images of At Least 400 Minors at Zacatecas School Were ..."
+      }
+    ],
+    "unparseable_dates": 0,
+    "relative_path": "incidents.csv",
+    "bytes": 1336750,
+    "sha256": "c8a2a69b16c718f46278d7a5be2a624dc6628c63e83603b1546d2409248a8263"
+  },
+  "S02": {
+    "rows": 2574,
+    "columns": [
+      "Title",
+      "QuickRef",
+      "Ev_ID",
+      "Paper_ID",
+      "Cat_ID",
+      "SubCat_ID",
+      "AddEv_ID",
+      "Category level",
+      "Risk category",
+      "Risk subcategory",
+      "Description",
+      "Additional ev.",
+      "P.Def",
+      "p.AddEv",
+      "Entity",
+      "Intent",
+      "Timing",
+      "Domain",
+      "Sub-domain"
+    ],
+    "column_count": 19,
+    "mapped_columns": {
+      "record_id": "Ev_ID",
+      "risk_category": "Risk category",
+      "risk_subcategory": "Risk subcategory",
+      "description": "Description",
+      "domain": "Domain",
+      "subdomain": "Sub-domain"
+    },
+    "missing_mapped": {
+      "record_id": 0,
+      "risk_category": 74,
+      "risk_subcategory": 718,
+      "description": 926,
+      "domain": 972,
+      "subdomain": 736
+    },
+    "exact_duplicate_rows": 0,
+    "duplicate_ids": 5,
+    "representative_records": [
+      {
+        "row_index": 0,
+        "record_id": "01.00.00",
+        "label": ""
+      },
+      {
+        "row_index": 680,
+        "record_id": "24.09.02",
+        "label": "Cooperation"
+      }
+    ],
+    "relative_path": "The AI Risk Repository V4_03_12_2025.xlsx",
+    "bytes": 712682,
+    "sha256": "7e87838e436b2b8a3714cf1ce88eaf7a95a49e609692725fec4933650283a8cb"
+  }
+}

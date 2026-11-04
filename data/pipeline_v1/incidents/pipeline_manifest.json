@@ -1,0 +1,65 @@
+{
+  "pipeline_version": "week3-v1",
+  "generated_at_utc": "2026-11-04T20:06:28.905006+00:00",
+  "data_type": "incidents",
+  "configuration": {
+    "remove_exact_duplicates": true,
+    "trim_text": true,
+    "source_url_template": "https://incidentdatabase.ai/cite/{record_id}",
+    "kind": "incidents"
+  },
+  "processing_method": "standardise columns; trim_text=True; drop rows without record_id; remove_exact_duplicates=True; source_url_template=https://incidentdatabase.ai/cite/{record_id}; missing descriptions flagged not imputed; stats={'rows_in': 1786, 'rows_dropped_missing_id': 0, 'exact_duplicates_removed': 0, 'rows_out': 1786, 'missing_description_flagged': 0, 'duplicate_ids_remaining': 0}",
+  "sources": [
+    {
+      "path": "/content/week3_project/data/raw/incidents.csv",
+      "sha256": "c8a2a69b16c718f46278d7a5be2a624dc6628c63e83603b1546d2409248a8263"
+    }
+  ],
+  "outputs": [
+    "/content/week3_project/data/pipeline_v1/incidents/prepared_incidents.csv"
+  ],
+  "source_output_mapping": [
+    {
+      "source": "/content/week3_project/data/raw/incidents.csv",
+      "output": "/content/week3_project/data/pipeline_v1/incidents/prepared_incidents.csv"
+    }
+  ],
+  "inspection": {
+    "rows": 1786,
+    "columns": [
+      "_id",
+      "incident_id",
+      "date",
+      "reports",
+      "Alleged deployer of AI system",
+      "Alleged developer of AI system",
+      "Alleged harmed or nearly harmed parties",
+      "description",
+      "title"
+    ],
+    "mapped": {
+      "record_id": "incident_id",
+      "title": "title",
+      "description": "description",
+      "date": "date"
+    },
+    "missing": {
+      "record_id": 0,
+      "title": 0,
+      "description": 0,
+      "date": 0
+    },
+    "exact_duplicates": 0
+  },
+  "validation": {
+    "output_count": 1,
+    "output_sha256": [
+      "a4ab8055e4f3b5f3e1ad3bea4d0f434f5ccb85a0535a8938b33f65a4fde8e839"
+    ],
+    "output_bytes": [
+      1301519
+    ]
+  },
+  "source_version": "Not verified",
+  "access_rights": "Not verified — check before sharing"
+}

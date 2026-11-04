@@ -1,0 +1,28 @@
+{
+  "pipeline_version": "week3-v1",
+  "generated_at_utc": "2026-11-04T20:06:20.052808+00:00",
+  "records": [
+    {
+      "source_id": "S01",
+      "source_filename": "incidents.csv",
+      "source_sha256": "c8a2a69b16c718f46278d7a5be2a624dc6628c63e83603b1546d2409248a8263",
+      "prepared_output": "data/processed/prepared_incidents.csv",
+      "prepared_sha256": "a4ab8055e4f3b5f3e1ad3bea4d0f434f5ccb85a0535a8938b33f65a4fde8e839",
+      "processing_note": "standardise columns; trim_text=True; drop rows without record_id; remove_exact_duplicates=True; source_url_template=https://incidentdatabase.ai/cite/{record_id}; missing descriptions flagged not imputed",
+      "source_version": "Not verified",
+      "access_rights": "Not verified",
+      "status": "Prepared; quality review pending"
+    },
+    {
+      "source_id": "S02",
+      "source_filename": "The AI Risk Repository V4_03_12_2025.xlsx",
+      "source_sha256": "7e87838e436b2b8a3714cf1ce88eaf7a95a49e609692725fec4933650283a8cb",
+      "prepared_output": "data/processed/prepared_risks.csv",
+      "prepared_sha256": "d6c95467131a8c907c46355f2252da68d05e01824fc88601cb571bc28855396b",
+      "processing_note": "standardise columns; trim_text=True; drop rows without record_id; remove_exact_duplicates=True; source_url_template=None; missing descriptions flagged not imputed",
+      "source_version": "Not verified",
+      "access_rights": "Not verified",
+      "status": "Prepared; quality review pending"
+    }
+  ]
+}
