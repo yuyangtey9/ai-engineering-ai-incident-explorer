@@ -48,3 +48,4 @@ Students and early-career AI practitioners learning Responsible AI through real 
 | W1 | System map + project scope | README + docs | ✅ |
 | W2 | Requirements, evaluation criteria, V1 architecture | docs/week2_* | ✅ |
 | W3 | V1 data pipeline (ingest, prepare, lineage) | notebooks/week3_pipeline.ipynb, docs/week3_* | ✅ |
+| W4 | Data quality audit and responsible data assessment | notebooks/week4_data_audit.ipynb, docs/week4_* | ✅ |
